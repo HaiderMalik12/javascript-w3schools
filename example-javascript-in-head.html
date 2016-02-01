@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example JavaScript in Head Section</title>
+   <style>
+       h1{
+           color: cadetblue;
+           font-size: medium;
+           font-family: Calibri;
+       }
+       p{
+           color: cadetblue;
+           font-size: medium;
+           font-family: Calibri;
+       }
+       button{
+           color: white;
+           background-color: black;
+
+       }
+   </style>
+
+  <script>
+      function onClickHandler(){
+          document.getElementById('demo').innerHTML='Paragraph Changed';
+      }
+  </script>
+</head>
+<body>
+ <h1> My Web Page</h1>
+ <!--i would like to access this paragraph in javascript-->
+ <p id="demo">I will never broke again
+  -I will never loose hope until i win
+ </p>
+<button type="button" onclick="onClickHandler()">OnClick</button>
+</body>
+</html>

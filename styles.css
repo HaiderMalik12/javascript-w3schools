@@ -1,0 +1,12 @@
+h1{
+  color: red;
+}
+p{
+    color: blue;
+}
+p.blue{
+   color: blue;
+}
+p#brown{
+    color: saddlebrown;
+}
